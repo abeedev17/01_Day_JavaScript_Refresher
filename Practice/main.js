@@ -179,3 +179,12 @@ let lastIndex5 = countries.length - 1;
 countries[lastIndex] = "France";
 
 console.log(countries);
+
+// Methods to manipulate array
+// Array Constructor
+// Array:To create an array.
+const arr4 = Array();
+console.log(arr4);
+
+const eightEmptyValues = Array(8);
+console.log(eightEmptyValues);
