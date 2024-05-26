@@ -301,3 +301,27 @@ console.log(numbers8.toString());
 
 const names = ["James", "John", "Adam", "Brook"];
 console.log(names.toString());
+
+// Joining array elements
+const numbers9 = [1, 2, 3, 4, 5];
+console.log(numbers9.join());
+
+const names1 = ["James", "John", "Adam", "Brook"];
+console.log(names1.join());
+console.log(names1.join(""));
+console.log(names1.join(" "));
+console.log(names1.join(", "));
+console.log(names1.join(" # "));
+
+const webTechs3 = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Redux",
+  "Node",
+  "MongoDB",
+];
+
+console.log(webTechs3.join());
+console.log(webTechs3.join(" # "));
