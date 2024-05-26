@@ -387,3 +387,12 @@ const numbers17 = [1, 2, 3, 4, 5];
 numbers17.unshift(0);
 
 console.log(numbers17);
+
+// Reversing array order
+const numbers18 = [1, 2, 3, 4, 5];
+numbers18.reverse();
+
+console.log(numbers18);
+
+numbers18.reverse();
+console.log(numbers18);
