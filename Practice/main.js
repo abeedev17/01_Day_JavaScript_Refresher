@@ -293,3 +293,11 @@ console.log(Array.isArray(numbers7));
 
 const number = 100;
 console.log(Array.isArray(number));
+
+// Converting array to string
+// toString:Converts array to string
+const numbers8 = [1, 2, 3, 4, 5];
+console.log(numbers8.toString());
+
+const names = ["James", "John", "Adam", "Brook"];
+console.log(names.toString());
