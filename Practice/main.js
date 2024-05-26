@@ -413,3 +413,23 @@ console.log(webTechs4);
 
 webTechs4.reverse();
 console.log(webTechs4);
+
+// Array of arrays
+const firstNums = [1, 2, 3];
+const secondNums = [1, 4, 9];
+
+const arrayOfArray = [
+  [1, 2, 3],
+  [1, 2, 3],
+];
+
+console.log(arrayOfArray[0]);
+
+const frontEnd = ["HTML", "CSS", "JS", "React", "Redux"];
+const backEnd = ["Node", "Express", "MongoDB"];
+const fullStack = [frontEnd, backEnd];
+
+console.log(fullStack);
+console.log(fullStack.length);
+console.log(fullStack[0]);
+console.log(fullStack[1]);
