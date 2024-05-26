@@ -110,3 +110,7 @@ switch (true) {
 }
 
 // Ternary Operators
+let isRaining1 = true;
+isRaining1
+  ? console.log("You need a rain coat.")
+  : console.log("No need for a rain coat.");
