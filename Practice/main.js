@@ -41,3 +41,13 @@ console.log("Number of web technologies: ", webTechs.length);
 
 console.log("Countries: ", countries);
 console.log("Number of countries: ", countries.length);
+
+// Array can have items of different data types
+const arr3 = [
+  "James",
+  250,
+  true,
+  { country: "Finland", city: "Helsink" },
+  { skills: ["HTML", "CSS", "JS", "React", "Python"] },
+]; //arr3 containing different data types
+console.log(arr3);
