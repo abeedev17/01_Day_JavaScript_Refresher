@@ -50,3 +50,16 @@ while (count > 0) {
   console.log(count);
   count--;
 }
+
+// do while
+let count1 = 0;
+do {
+  console.log("do while", count1);
+  count1++;
+} while (count1 < 11);
+
+let count2 = 11;
+do {
+  console.log(count2);
+  count2++;
+} while (count2 < 11);
