@@ -95,3 +95,21 @@ console.log(numbers[5]); // fifth array item
 
 let lastIndex1 = numbers.length - 1;
 console.log(numbers[lastIndex]);
+
+const webTechs1 = [
+  "HTML",
+  "CSs",
+  "JavaScript",
+  "React",
+  "Redux",
+  "Node",
+  "MongoDB",
+];
+
+console.log(webTechs);
+console.log(webTechs.length);
+console.log(webTechs[0]);
+console.log(webTechs[6]);
+
+let lastIndex2 = webTechs1.length - 1;
+console.log(webTechs[lastIndex]);
