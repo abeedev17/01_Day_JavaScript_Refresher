@@ -396,3 +396,20 @@ console.log(numbers18);
 
 numbers18.reverse();
 console.log(numbers18);
+
+// Sorting elements in array
+const webTechs4 = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Redux",
+  "Node",
+  "MongoDB",
+];
+
+webTechs4.sort();
+console.log(webTechs4);
+
+webTechs4.reverse();
+console.log(webTechs4);
