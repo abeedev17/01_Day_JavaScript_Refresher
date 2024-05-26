@@ -285,3 +285,11 @@ const webTechs2 = [
 
 console.log(webTechs2.includes("Node"));
 console.log(webTechs2.includes("C"));
+
+// Checking array
+// Array.isArray:To check if the data type is an array
+const numbers7 = [1, 2, 3, 4, 5];
+console.log(Array.isArray(numbers7));
+
+const number = 100;
+console.log(Array.isArray(number));
