@@ -188,3 +188,17 @@ console.log(arr4);
 
 const eightEmptyValues = Array(8);
 console.log(eightEmptyValues);
+
+// Creating static values with fill
+// fill: Fill all the array elements with a static value
+const arr5 = Array();
+console.log(arr5);
+
+const eightXvalues = Array(8).fill("X");
+console.log(eightXvalues);
+
+const eight0values = Array(8).fill("0");
+console.log(eight0values);
+
+const four4values = Array(4).fill(4);
+console.log(four4values);
