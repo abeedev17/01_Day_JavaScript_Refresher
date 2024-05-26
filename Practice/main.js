@@ -68,3 +68,20 @@ let txt =
 const words = txt.split(" ");
 
 console.log(words);
+
+// Accessing array items using index
+const fruits1 = ["banana", "orange", "mango", "lemon"];
+let firstFruit = fruits[0];
+
+console.log(firstFruit);
+
+secondFruit = fruits[1];
+console.log(secondFruit);
+
+let lastFruit = fruits[3];
+console.log(lastFruit);
+
+let lastIndex = fruits.length - 1;
+lastFruit = fruits[lastIndex];
+
+console.log(lastFruit);
