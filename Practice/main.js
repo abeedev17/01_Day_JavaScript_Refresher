@@ -254,3 +254,13 @@ if (indexOfAvocado != -1) {
 } else {
   console.log("This fruit does not exist in the array");
 }
+
+// Getting last index of an element in array
+// lastIndexOf: It gives the position of the last item in the array. If it exist, it returns the index else it returns -1.
+const numbers5 = [1, 2, 3, 4, 5, 3, 1, 2];
+
+console.log(numbers5.lastIndexOf(2));
+console.log(numbers5.lastIndexOf(0));
+console.log(numbers5.lastIndexOf(1));
+console.log(numbers5.lastIndexOf(4));
+console.log(numbers5.lastIndexOf(6));
