@@ -368,3 +368,9 @@ console.log(fruits4);
 
 fruits4.push("lime");
 console.log(fruits4);
+
+// Removing the end element using pop
+const numbers15 = [1, 2, 3, 4, 5];
+numbers15.pop();
+
+console.log(numbers15);
