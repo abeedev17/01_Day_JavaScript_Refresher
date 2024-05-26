@@ -217,3 +217,8 @@ const vegetables2 = ["Tomato", "Potato", "Cabbage", "Onion", "Carrot"];
 const fruitsAndVegetables = fruits.concat(vegetables);
 
 console.log(fruitsAndVegetables);
+
+// Getting array length
+// Length:To know the size of the array
+const numbers3 = [1, 2, 3, 4, 5];
+console.log(numbers.length);
