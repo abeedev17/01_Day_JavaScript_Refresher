@@ -374,3 +374,16 @@ const numbers15 = [1, 2, 3, 4, 5];
 numbers15.pop();
 
 console.log(numbers15);
+
+// Removing an element from the beginning
+// shift: Removing one array element in the beginning of the array.
+const numbers16 = [1, 2, 3, 4, 5];
+numbers16.shift();
+
+console.log(numbers16);
+
+// Add an element from the beginning
+const numbers17 = [1, 2, 3, 4, 5];
+numbers17.unshift(0);
+
+console.log(numbers17);
