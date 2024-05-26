@@ -134,3 +134,21 @@ console.log(countries[10]);
 
 let lastIndex3 = countries.length - 1;
 console.log(countries[lastIndex3]);
+
+const shoppingCart = [
+  "Milk",
+  "Mango",
+  "Tomato",
+  "Potato",
+  "Avocado",
+  "Meat",
+  "Eggs",
+  "Sugar",
+];
+
+console.log(shoppingCart);
+console.log(shoppingCart[0]);
+console.log(shoppingCart[7]);
+
+let lastIndex4 = shoppingCart.length - 1;
+console.log(shoppingCart[lastIndex4]);
