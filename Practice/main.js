@@ -152,3 +152,30 @@ console.log(shoppingCart[7]);
 
 let lastIndex4 = shoppingCart.length - 1;
 console.log(shoppingCart[lastIndex4]);
+
+// Modifying array element
+const numbers2 = [1, 2, 3, 4, 5];
+numbers2[0] = 10;
+numbers2[1] = 20;
+
+console.log(numbers);
+
+const countries2 = [
+  "Albania",
+  "Bolivia",
+  "Canada",
+  "Denmark",
+  "Ethiopia",
+  "Finland",
+  "Germany",
+  "Hungary",
+  "Ireland",
+  "Japan",
+  "Kenya",
+];
+
+countries[0] = "Italy";
+let lastIndex5 = countries.length - 1;
+countries[lastIndex] = "France";
+
+console.log(countries);
