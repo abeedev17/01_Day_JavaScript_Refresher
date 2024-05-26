@@ -344,3 +344,27 @@ console.log(numbers12.splice(0, 2));
 const numbers13 = [1, 2, 3, 4, 5, 6];
 console.log(numbers13.splice(3, 3, 7, 8, 9));
 console.log(numbers13);
+
+// Adding item to an array using push
+// Push: adding item in the end. To add item to the end of an existing array we use the push method.
+// syntax
+const arr = ["item1", "item2", "item3"];
+arr.push("new item");
+
+console.log(arr);
+
+const numbers14 = [1, 2, 3, 4, 5];
+numbers14.push(6);
+
+console.log(numbers14);
+
+numbers14.pop();
+console.log(numbers14);
+
+let fruits4 = ["banana", " orange", "mango", "lemon"];
+fruits4.push("apple");
+
+console.log(fruits4);
+
+fruits4.push("lime");
+console.log(fruits4);
