@@ -231,3 +231,26 @@ console.log(numbers4.indexOf(5));
 console.log(numbers4.indexOf(0));
 console.log(numbers4.indexOf(1));
 console.log(numbers4.indexOf(6));
+
+// Check an element if it exist in an array.
+// Check items in a list
+const fruits3 = ["banana", "orange", "mango", "lemon"];
+let index = fruits3.indexOf("banana");
+
+if (index != -1) {
+  console.log("This fruit does exist in the array");
+} else {
+  console.log("This fruit does not exist in the array");
+}
+
+index != -1
+  ? console.log("This fruit does exist in the array")
+  : console.log("This fruit does not exist in the array");
+
+let indexOfAvocado = fruits.indexOf("avocado");
+
+if (indexOfAvocado != -1) {
+  console.log("This fruit does exist in the array");
+} else {
+  console.log("This fruit does not exist in the array");
+}
