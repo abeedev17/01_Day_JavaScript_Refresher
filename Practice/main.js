@@ -85,3 +85,13 @@ let lastIndex = fruits.length - 1;
 lastFruit = fruits[lastIndex];
 
 console.log(lastFruit);
+
+const numbers1 = [0, 3.14, 9.81, 37, 98.6, 100]; // set of numbers
+
+console.log(numbers.length); // to know the size of the array, which is 6
+console.log(numbers); // returns array
+console.log(numbers[0]); // first array item
+console.log(numbers[5]); // fifth array item
+
+let lastIndex1 = numbers.length - 1;
+console.log(numbers[lastIndex]);
