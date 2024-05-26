@@ -221,4 +221,13 @@ console.log(fruitsAndVegetables);
 // Getting array length
 // Length:To know the size of the array
 const numbers3 = [1, 2, 3, 4, 5];
-console.log(numbers.length);
+console.log(numbers3.length);
+
+// Getting index of an element in an array
+// indexOf:To check if an item exist in an array. If it exists it returns the index else it returns -1.
+const numbers4 = [1, 2, 3, 4, 5];
+
+console.log(numbers4.indexOf(5));
+console.log(numbers4.indexOf(0));
+console.log(numbers4.indexOf(1));
+console.log(numbers4.indexOf(6));
