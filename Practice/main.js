@@ -10,3 +10,8 @@ const arr1 = Array();
 // or
 // let arr = new Array();
 console.log(arr1);
+// Using square brackets([])
+// syntax
+// This the most recommended way to create an empty list
+const arr2 = [];
+console.log(arr2);
