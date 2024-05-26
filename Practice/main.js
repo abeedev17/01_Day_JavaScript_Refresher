@@ -202,3 +202,18 @@ console.log(eight0values);
 
 const four4values = Array(4).fill(4);
 console.log(four4values);
+
+// Concatenating array using concat
+// concat:To concatenate two arrays.
+
+const firstList = [1, 2, 3];
+const secondList = [4, 5, 6];
+const thirdList = firstList.concat(secondList);
+
+console.log(thirdList);
+
+const fruits2 = ["banana", "orange", "mango", "lemon"];
+const vegetables2 = ["Tomato", "Potato", "Cabbage", "Onion", "Carrot"];
+const fruitsAndVegetables = fruits.concat(vegetables);
+
+console.log(fruitsAndVegetables);
