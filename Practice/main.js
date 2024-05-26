@@ -333,3 +333,14 @@ console.log(numbers10.slice());
 console.log(numbers10.slice(0));
 console.log(numbers10.slice(0, numbers10.length));
 console.log(numbers10.slice(1, 4));
+
+// Splice method in array
+const numbers11 = [1, 2, 3, 4, 5];
+console.log(numbers11.splice());
+
+const numbers12 = [1, 2, 3, 4, 5];
+console.log(numbers12.splice(0, 2));
+
+const numbers13 = [1, 2, 3, 4, 5, 6];
+console.log(numbers13.splice(3, 3, 7, 8, 9));
+console.log(numbers13);
