@@ -43,3 +43,10 @@ for (let i = lastIndex; i >= 0; i--) {
 }
 
 console.log(newArray);
+
+// while
+let count = prompt("Enter a positive number: ");
+while (count > 0) {
+  console.log(count);
+  count--;
+}
