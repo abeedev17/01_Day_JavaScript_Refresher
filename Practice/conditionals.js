@@ -108,3 +108,5 @@ switch (true) {
   default:
     console.log("Entered value was not a number");
 }
+
+// Ternary Operators
