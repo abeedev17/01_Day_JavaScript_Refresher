@@ -94,7 +94,7 @@ console.log(numbers[0]); // first array item
 console.log(numbers[5]); // fifth array item
 
 let lastIndex1 = numbers.length - 1;
-console.log(numbers[lastIndex]);
+console.log(numbers[lastIndex1]);
 
 const webTechs1 = [
   "HTML",
@@ -112,4 +112,25 @@ console.log(webTechs[0]);
 console.log(webTechs[6]);
 
 let lastIndex2 = webTechs1.length - 1;
-console.log(webTechs[lastIndex]);
+console.log(webTechs[lastIndex2]);
+
+const countries1 = [
+  "Albania",
+  "Bolivia",
+  "Canada",
+  "Denmark",
+  "Ethiopia",
+  "Finland",
+  "Germany",
+  "Hungary",
+  "Ireland",
+  "Japan",
+  "Kenya",
+];
+
+console.log(countries);
+console.log(countries[0]);
+console.log(countries[10]);
+
+let lastIndex3 = countries.length - 1;
+console.log(countries[lastIndex3]);
