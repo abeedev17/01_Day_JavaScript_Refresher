@@ -325,3 +325,11 @@ const webTechs3 = [
 
 console.log(webTechs3.join());
 console.log(webTechs3.join(" # "));
+
+// Slice array elements
+const numbers10 = [1, 2, 3, 4, 5];
+
+console.log(numbers10.slice());
+console.log(numbers10.slice(0));
+console.log(numbers10.slice(0, numbers10.length));
+console.log(numbers10.slice(1, 4));
