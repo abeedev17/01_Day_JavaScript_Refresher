@@ -264,3 +264,24 @@ console.log(numbers5.lastIndexOf(0));
 console.log(numbers5.lastIndexOf(1));
 console.log(numbers5.lastIndexOf(4));
 console.log(numbers5.lastIndexOf(6));
+
+// includes:To check if an item exist in an array. If it exist it returns the true else it returns false.
+const numbers6 = [1, 2, 3, 4, 5];
+
+console.log(numbers6.includes(5));
+console.log(numbers6.includes(0));
+console.log(numbers6.includes(1));
+console.log(numbers6.includes(6));
+
+const webTechs2 = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Redux",
+  "Node",
+  "MongoDB",
+];
+
+console.log(webTechs2.includes("Node"));
+console.log(webTechs2.includes("C"));
