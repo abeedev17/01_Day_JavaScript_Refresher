@@ -65,8 +65,8 @@ do {
 } while (count2 < 11);
 
 // for of
-const numbers = [1, 2, 3, 4, 5];
-for (const number of numbers) {
+const numbers1 = [1, 2, 3, 4, 5];
+for (const number of numbers1) {
   console.log(number);
 }
 
@@ -74,3 +74,14 @@ const countries = ["Finland", "Sweden", "Norway", "Denmark", "Iceland"];
 for (const country of countries) {
   console.log(country.toUpperCase());
 }
+
+// forEach
+const numbers2 = [1, 2, 3, 4, 5];
+numbers2.forEach((number, i) => {
+  console.log(number, i);
+});
+
+const countries1 = ["Finland", "Sweden", "Norway", "Denmark", " Iceland"];
+countries1.forEach((country, i, arr) => {
+  console.log(i, country.toUpperCase());
+});
