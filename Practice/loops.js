@@ -98,3 +98,20 @@ const user = {
 for (const key in user) {
   console.log(key, user[key]);
 }
+
+// Interrupting a loop and skipping an item
+// break
+for (let i = 0; i <= 5; i++) {
+  if (i == 3) {
+    break;
+  }
+  console.log(i);
+}
+
+// continue
+for (let i = 0; i <= 5; i++) {
+  if (i == 3) {
+    continue;
+  }
+  console.log(i);
+}
