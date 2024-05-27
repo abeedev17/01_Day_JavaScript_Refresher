@@ -85,3 +85,16 @@ const countries1 = ["Finland", "Sweden", "Norway", "Denmark", " Iceland"];
 countries1.forEach((country, i, arr) => {
   console.log(i, country.toUpperCase());
 });
+
+// for in
+const user = {
+  firstName: "James",
+  lastName: "Harry",
+  age: 55,
+  country: "United Kingdom",
+  skills: ["HTML", "CSS", "JS", "React", "Node", "Python", "D3.js"],
+};
+
+for (const key in user) {
+  console.log(key, user[key]);
+}
