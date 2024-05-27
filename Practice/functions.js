@@ -27,3 +27,23 @@ function printFullName() {
 }
 
 printFullName();
+
+// Function returning value
+function printFullName1() {
+  let firstName = "James";
+  let lastName = "Harry";
+  let space = " ";
+  let fullName = firstName + space + lastName;
+  return fullName;
+}
+
+console.log(printFullName1());
+
+function addTwoNumbers1() {
+  let numOne = 2;
+  let numTwo = 3;
+  let total = numOne + numTwo;
+  return total;
+}
+
+console.log(addTwoNumbers1());
