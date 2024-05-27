@@ -17,3 +17,13 @@ function addTwoNumbers() {
 }
 
 addTwoNumbers();
+
+function printFullName() {
+  let firstName = "James";
+  let lastName = "Harry";
+  let space = " ";
+  let fullName = firstName + space + lastName;
+  console.log(fullName);
+}
+
+printFullName();
