@@ -61,3 +61,24 @@ function square1(number) {
 }
 
 console.log(square1(10));
+
+// Function with two parameters
+function sumTwoNumbers1(numOne, numTwo) {
+  let sum = numOne + numTwo;
+  console.log(sum);
+}
+
+sumTwoNumbers1(10, 20);
+
+function sumTwoNumbers2(numOne, numTwo) {
+  let sum = numOne + numTwo;
+  return sum;
+}
+
+console.log(sumTwoNumbers2(10, 201));
+
+function printFullName2(firstName, secondName) {
+  return `${firstName} ${secondName}`;
+}
+
+console.log(printFullName2("James", "Harry"));
