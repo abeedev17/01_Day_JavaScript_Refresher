@@ -70,3 +70,8 @@ const keys = Object.keys(copyPerson);
 console.log(keys);
 const address = Object.keys(copyPerson.address);
 console.log(address);
+
+// Getting object values using Object.values()
+// Object.values:To get values of an object as an array
+const values = Object.values(copyPerson);
+console.log(values);
