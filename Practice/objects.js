@@ -75,3 +75,8 @@ console.log(address);
 // Object.values:To get values of an object as an array
 const values = Object.values(copyPerson);
 console.log(values);
+
+// Getting object keys and values using Object.entries()
+// Object.entries:To get the keys and values in an array
+const entries = Object.entries(copyPerson);
+console.log(entries);
