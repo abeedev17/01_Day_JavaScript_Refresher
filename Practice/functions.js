@@ -138,3 +138,28 @@ const sumAllNums3 = (...args) => {
 };
 
 console.log(sumAllNums3(1, 4, 6, 8));
+
+// Anonymous Function
+const anonymousFun = function () {
+  console.log(
+    "I am an anonymous function and my value is stored in anonymousFun"
+  );
+};
+
+// Expression Function
+const square2 = function (n) {
+  return n * n;
+};
+
+console.log(square2(2));
+
+// Self Invoking Functions
+(function (n) {
+  console.log(n * n);
+})(2);
+
+let squaredNum = (function (n) {
+  return n * n;
+})(10);
+
+console.log(squaredNum);
