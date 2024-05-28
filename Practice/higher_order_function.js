@@ -52,3 +52,10 @@ function sayHello() {
 }
 
 setInterval(sayHello, 2000);
+
+// setTimeout
+function sayHello1() {
+  console.log("Hello setTimeout");
+}
+
+setTimeout(sayHello1, 2000);
