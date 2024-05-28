@@ -62,3 +62,28 @@ const fruitsAndVegetables = [
 
 const [fruits, vegatables] = fruitsAndVegetables;
 console.log(fruits, vegatables);
+
+// Skipping an Item during destructuring
+const countries4 = ["Finland", "Sweden", "Iceland", "Norway", "Denmark"];
+const [fin4, ice4, , den4] = countries4;
+console.log(fin4, ice4, den4);
+
+const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const [num21, num22, num23, ...rest] = nums;
+
+console.log(num21, num22, num23, rest);
+
+const countries5 = [
+  "Germany",
+  "France",
+  "Belgium",
+  "Finland",
+  "Sweden",
+  "Norway",
+  "Denmark",
+  "Iceland",
+];
+
+let [gem, fra, ...nordicCountries] = countries5;
+
+console.log(gem, fra, nordicCountries);
