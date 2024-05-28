@@ -121,3 +121,20 @@ function sumAllNums1() {
 
 console.log(sumAllNums1(1, 2, 3, 4));
 console.log(sumAllNums1(1, 4, 6, 12, 30));
+
+// Unlimited number of parameters in arrow function
+const sumAllNums2 = (...args) => {
+  console.log(args);
+};
+
+sumAllNums2(1, 2, 3, 4);
+
+const sumAllNums3 = (...args) => {
+  let sum = 0;
+  for (const item of args) {
+    sum += item;
+  }
+  return sum;
+};
+
+console.log(sumAllNums3(1, 4, 6, 8));
