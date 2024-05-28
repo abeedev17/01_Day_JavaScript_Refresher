@@ -38,3 +38,27 @@ console.log(e, pi, gravity, bodyTemp, boilingTemp);
 const countries2 = ["Finland", "Sweden", "Norway"];
 const [fin1, swe1, nor1] = countries2;
 console.log(fin, swe, nor);
+
+const [fin2, swe2, nor2, den2] = countries2;
+console.log(den2);
+
+const countries3 = ["Finland", "Sweden", undefined, "Norway"];
+const [fin3, swe3, ice3 = "Iceland", nor3, den3 = "Denmark"] = countries3;
+console.log(fin3, swe3, ice3, nor3, den3);
+
+// Destructuring Nested arrays
+const fullStack = [
+  ["HTML", "CSS", "JS", "React"],
+  ["Node", "Express", "MongoDB"],
+];
+
+const [frontEnd, backEnd] = fullStack;
+console.log(frontEnd, backEnd);
+
+const fruitsAndVegetables = [
+  ["banana", "orange", "mango", "lemon"],
+  ["Tomato", "Potato", "Cabbage", "Onion"],
+];
+
+const [fruits, vegatables] = fruitsAndVegetables;
+console.log(fruits, vegatables);
