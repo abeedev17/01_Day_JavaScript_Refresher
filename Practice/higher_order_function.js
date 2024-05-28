@@ -44,3 +44,11 @@ const sumArray1 = (arr) => {
 };
 
 console.log(sumArray1(numbers));
+
+// Setting time
+// setInterval
+function sayHello() {
+  console.log("Hello");
+}
+
+setInterval(sayHello, 2000);
