@@ -163,3 +163,94 @@ let squaredNum = (function (n) {
 })(10);
 
 console.log(squaredNum);
+
+// Arrow Function
+function square3(n) {
+  return n * n;
+}
+
+console.log(square3(3));
+
+const square4 = (n) => {
+  return n * n;
+};
+
+console.log(square4(4));
+
+const square5 = (n) => n * n;
+
+const changeToUpperCase = (arr) => {
+  const newArr = [];
+  for (const item of arr) {
+    newArr.push(item.toUpperCase());
+  }
+  return newArr;
+};
+
+const countries = ["Finland", "Sweden", "Norway", "Denmark", "Iceland"];
+console.log(changeToUpperCase(countries));
+
+const printFullName3 = (firstName, lastName) => {
+  return `${firstName} ${lastName}`;
+};
+
+console.log(printFullName3("James", "Harry"));
+
+// Function with default parameters
+function greeting(name = "Peter") {
+  let message = `${name}, welcome to 30 Days of JavaScript`;
+  return message;
+}
+
+console.log(greeting());
+console.log(greeting("James"));
+
+function generateFullName(firstName = "James", lastName = "Harry") {
+  let space = " ";
+  let fullName = firstName + space + lastName;
+  return fullName;
+}
+
+console.log(generateFullName());
+console.log(generateFullName("David", "Smith"));
+
+function calculateAge(birthYear, currentYear = 2019) {
+  let age = currentYear - birthYear;
+  return age;
+}
+
+console.log("Age: ", calculateAge(1819));
+
+function weightOfObject(mass, gravity = 9.81) {
+  let weight = mass * gravity + "N";
+  return weight;
+}
+
+console.log("Weight of an object in Newton: ", weightOfObject(100, 1.62));
+
+// In arrow function
+const greetings = (name = "Peter") => {
+  let message = name + ", welcome to 30 Days of JavaScript";
+  return message;
+};
+
+console.log(greetings());
+console.log(greetings("James"));
+
+const generateFullName1 = (firstName = "James", lastName = "Harry") => {
+  let space = " ";
+  let fullName = firstName + space + lastName;
+  return fullName;
+};
+
+console.log(generateFullName());
+console.log(generateFullName("David", "Smith"));
+
+const calculateAge1 = (birthYear, currentYear = 2019) =>
+  currentYear - birthYear;
+console.log("Age: ", calculateAge(1919));
+
+const weightOfObject1 = (mass, gravity = 9.81) => mass * gravity + "N";
+
+console.log("Weight of an object in Newton: ", weightOfObject1(100));
+console.log("Weight of an object in Newton: ", weightOfObject1(19, 1.9));
