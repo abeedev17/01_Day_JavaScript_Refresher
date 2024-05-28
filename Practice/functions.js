@@ -102,3 +102,22 @@ const areaOfCircle1 = (radius) => {
 };
 
 console.log(areaOfCircle1(10));
+
+// Function with unlimited number of parameters
+// Unlimited number of parameters in regular function
+function sumAllNums() {
+  console.log(arguments);
+}
+
+sumAllNums(1, 2, 3, 4);
+
+function sumAllNums1() {
+  let sum = 0;
+  for (let i = 0; i < arguments.length; i++) {
+    sum += arguments[i];
+  }
+  return sum;
+}
+
+console.log(sumAllNums1(1, 2, 3, 4));
+console.log(sumAllNums1(1, 4, 6, 12, 30));
