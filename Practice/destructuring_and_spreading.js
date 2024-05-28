@@ -25,3 +25,16 @@ let swe = countries1[1];
 let nor = countries1[2];
 
 console.log(fin, swe, nor);
+
+// Accessing array items using destructuring
+const numbers2 = [1, 2, 3];
+const [num11, num12, num13] = numbers;
+console.log(num11, num12, num13);
+
+const constants = [2.72, 3.14, 9.81, 37, 100];
+const [e, pi, gravity, bodyTemp, boilingTemp] = constants;
+console.log(e, pi, gravity, bodyTemp, boilingTemp);
+
+const countries2 = ["Finland", "Sweden", "Norway"];
+const [fin1, swe1, nor1] = countries2;
+console.log(fin, swe, nor);
