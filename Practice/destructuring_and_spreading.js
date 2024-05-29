@@ -87,3 +87,25 @@ const countries5 = [
 let [gem, fra, ...nordicCountries] = countries5;
 
 console.log(gem, fra, nordicCountries);
+
+// Destructuring when we loop through arrays
+const countries6 = [
+  ["Finland", "Helsinki"],
+  ["Sweden", "Stockholm"],
+  ["Norway", "Oslo"],
+];
+
+for (const [country, city] of countries6) {
+  console.log(country, city);
+}
+
+const fullStack1 = [
+  ["HTML", "CSS", "JS", "React"],
+  ["Node", "Express", "MongoDB"],
+];
+
+for (const [first, second, third, fourth] of fullStack1) {
+  console.log(first, second, third, fourth);
+}
+
+const [x, y] = [2, (value) => value ** 2];
