@@ -146,3 +146,12 @@ const rectangle3 = {
 
 let { width4, height4, perimeter1 = 20 } = rectangle3;
 console.log(width4, height4, perimeter1);
+
+// Renaming variable names
+const rectangle4 = {
+  width5: 20,
+  height5: 12,
+};
+
+let { width5: w, height5: h } = rectangle4;
+console.log(w, h);
