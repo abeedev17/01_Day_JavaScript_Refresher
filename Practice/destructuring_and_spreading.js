@@ -109,3 +109,23 @@ for (const [first, second, third, fourth] of fullStack1) {
 }
 
 const [x, y] = [2, (value) => value ** 2];
+
+// Destructuring objects
+const rectangle = {
+  width: 20,
+  height: 10,
+};
+
+let width = rectangle.width;
+let height = rectangle.height;
+
+let width1 = rectangle[width];
+let height1 = rectangle[height];
+
+const rectangle1 = {
+  width2: 11,
+  height2: 113,
+};
+
+let { width2, height2 } = rectangle1;
+console.log(width2, height2);
