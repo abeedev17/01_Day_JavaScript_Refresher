@@ -129,3 +129,20 @@ const rectangle1 = {
 
 let { width2, height2 } = rectangle1;
 console.log(width2, height2);
+
+const rectangle2 = {
+  width3: 221,
+  height3: 12,
+};
+
+let { width3, height3, perimeter } = rectangle2;
+console.log(width3, height3, perimeter);
+
+// Default value during object destructuring
+const rectangle3 = {
+  width4: 113,
+  height4: 112,
+};
+
+let { width4, height4, perimeter1 = 20 } = rectangle3;
+console.log(width4, height4, perimeter1);
