@@ -54,3 +54,20 @@ console.log(copiedUser);
 
 const copiedUser1 = { ...user, title: "instructor" };
 console.log(copiedUser1);
+
+// Spread operator with arrow function
+const sumAllNums = (...args) => {
+  console.log(args);
+};
+
+sumAllNums(1, 2, 3, 4, 5);
+
+const sumAllNums1 = (...args) => {
+  let sum = 0;
+  for (const num of args) {
+    sum += num;
+  }
+  return sum;
+};
+
+console.log(sumAllNums1(1, 2, 3, 4, 5));
