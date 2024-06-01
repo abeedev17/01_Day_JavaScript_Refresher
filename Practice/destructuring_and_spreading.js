@@ -155,3 +155,57 @@ const rectangle4 = {
 
 let { width5: w, height5: h } = rectangle4;
 console.log(w, h);
+
+// Destructure nested object
+const props = {
+  user: {
+    firstName: "Adam",
+    lastName: "Harry",
+    age: 66,
+  },
+  post: {
+    title: "Destructuring and Spread",
+    subtitle: "ES6",
+    year: 2020,
+  },
+  skills: ["JS", "React", "Redux", "Node", "Python"],
+};
+
+const { user, post, skills } = props;
+console.log(user, post, skills);
+const { firstName, lastName, age } = user;
+console.log(firstName, lastName, age);
+const { title, subtitle, year } = post;
+console.log(title, subtitle, year);
+const [skillOne, skillTwo, skillThree, skillFour, skillFive] = skills;
+console.log(skillOne, skillTwo, skillThree, skillFour, skillFive);
+
+// Destructure in one step
+const {
+  user: { firstName1, lastName1, age1 },
+  post: { title1, subtitle1, year1 },
+  skills: [skillOne1, skillTwo1, skillThree1, skillFour1, skillFive1],
+} = props;
+
+// Destructuring during loop through an array
+const languages = [
+  { lang: "English", count: 91 },
+  { lang: "French", count: 45 },
+  { lang: "Arabic", count: 25 },
+  { lang: "Spanish", count: 24 },
+  { lang: "Russian", count: 9 },
+];
+
+for (const { lang, count } of languages) {
+  console.log(`The ${lang} is spoken in ${count} countries.`);
+}
+
+// Destructuring function parameters
+const rectangle5 = { width7: 20, height7: 10 };
+const calculateArea = ({ width7: widthId, height7: heightId }) =>
+  widthId * heightId;
+const calculatePerimeter = ({ width7: widthId, height7: heightId }) =>
+  2 * (widthId + heightId);
+console.log(rectangle5);
+console.log(calculateArea(rectangle5));
+console.log(calculatePerimeter(rectangle5));
