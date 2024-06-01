@@ -40,3 +40,17 @@ const backEnd = ["Node", "Express", "MongoDB"];
 const fullStack = [...frontEnd, ...backEnd];
 
 console.log(fullStack);
+
+// Spread operator to copy object
+const user = {
+  name: "Adam",
+  title: "Programmer",
+  country: "Finland",
+  city: "Helsinki",
+};
+
+const copiedUser = { ...user };
+console.log(copiedUser);
+
+const copiedUser1 = { ...user, title: "instructor" };
+console.log(copiedUser1);
