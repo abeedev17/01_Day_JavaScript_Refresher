@@ -16,3 +16,7 @@ const countries = [
 ];
 const index = countries.findIndex((country) => country.length === 5);
 console.log(index);
+
+// find the index of the first country in the array which has the letter 'o'.
+const index1 = countries.findIndex((country) => country.includes("c"));
+console.log(index1);
