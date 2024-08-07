@@ -9,3 +9,7 @@ console.log(firstOddNum);
 const countries = ["Finland", "Estonia", "Sweden", "Norway", "Denmark"];
 const countryWithWay = countries.find((country) => country.includes("way"));
 console.log(countryWithWay);
+
+// find letter
+const index = countries.find((country) => country.includes("o"));
+console.log(index);
