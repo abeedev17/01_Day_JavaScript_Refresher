@@ -4,3 +4,15 @@ const firstEvenIndex = numbers.findIndex((n) => n % 2 === 0);
 const firstOddIndex = numbers.findIndex((n) => n % 2 !== 0);
 console.log(firstEvenIndex);
 console.log(firstOddIndex);
+
+// find the index of the first country in the array which has exactly six characters
+const countries = [
+  "Finland",
+  "Spain",
+  "Estonia",
+  "Sweden",
+  "Norway",
+  "Iceland",
+];
+const index = countries.findIndex((country) => country.length === 5);
+console.log(index);
