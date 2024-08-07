@@ -4,3 +4,8 @@ const firstOddNum = numbers.find((n) => n % 2 !== 0);
 
 console.log(firstEvenNum);
 console.log(firstOddNum);
+
+// find substring
+const countries = ["Finland", "Estonia", "Sweden", "Norway", "Denmark"];
+const countryWithWay = countries.find((country) => country.includes("way"));
+console.log(countryWithWay);
